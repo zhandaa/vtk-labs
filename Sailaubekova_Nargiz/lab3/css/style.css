@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Revalia', sans-serif;
+    font-family: 'Roboto', sans-serif; */   
+}
+.container{
+    max-width: 1010px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #EEEFF1;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-family: 'Revalia', sans-serif;
+    font-size: 48px;
+    margin-top: 57px 
+}
+.logo-text{
+    text-decoration: none;
+    color: #34547A;
+}
+
+.nav{
+    margin-top: 79px;
+    max-height: 88px;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-item{
+    margin-left: 42px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header-content{
+    margin-top: 90px;
+    display: flex;
+}
+.header-img{
+    margin-left:85px;                                     
+}
+
+.header-info{
+    margin-left:120px;
+}
+
+.header-info__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.header-info__text{
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header-info__btn{
+    margin-top: 60px;
+    margin-bottom: 146px;
+}
+.header-btn{
+    width: 225px;
+    height: 65px;
+    padding: 25px 41px;
+    background-color: #34547A;
+    border: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;    
+    font-size: 16px;
+}
+.header-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.about-me{
+    background-color: #f9f9f9;
+    height: 303px;
+    margin: 0;
+}
+
+.about-me__content{
+    margin: 78px auto;
+    max-width: 540px;
+}
+
