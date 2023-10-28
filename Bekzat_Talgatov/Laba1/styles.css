@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .pagination a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+    margin-right: 6px;
+   }
+   
+   .pagination a:hover {
+    background-color: #ccc;
+   }
+   
+   .pagination .active {
+    background-color: #d10953;
+    color: #fff;
+   }
