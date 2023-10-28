@@ -1,0 +1,21 @@
+.smartphones {
+    list-style: none; 
+    padding: 0;
+  }
+  .smartphones li {
+    display: inline; 
+    margin-right: 5px; 
+  }
+  .smartphones li:not(:last-child)::after {
+    content: " > "; 
+  }
+  .smartphones a {
+    color: #0b56ea;
+    text-decoration: none;
+  }
+  .smartphones a:hover {
+    text-decoration: underline;
+  }
+  .smartphones span {
+    color: #333;
+  }
