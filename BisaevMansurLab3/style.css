@@ -1,0 +1,83 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header__sait {
+  background: #EEEFF1;
+  padding-bottom: 100px;
+}
+.header {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items:center;
+}
+.header__menu {
+  display: flex;
+  list-style: none;
+  gap:20px;
+}
+.header__menu a {
+  text-decoration: none;
+  color: #8887db;
+}
+.header__menu a:hover {
+  color: #f00b44;
+}
+.logo {
+  width:96px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chapter-info__wrapper {
+  background: #EEEFF1;
+
+}
+.chapter-info {
+  display: flex;
+  justify-content: center;
+  gap: 130px;
+  padding-bottom: 70px;
+}
+.chapter-info h1{
+  font-size: 48px;
+  margin: 0;
+}
+.chapter-info__img {
+  width: 357px;
+  height:233px;
+}
+.chapter-info__heading {
+  display:flex;
+  width:540px;
+  flex-direction: column;
+  gap:60px;
+}
+.chapter-info__paragraph {
+ color:#080505;
+ font-size: 16px;
+ margin: 0;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-decoration: none;
+  color: white;
+  background-color: #eb1337;
+  width:225px;
+  height:65px;
+  transition: transform .3s ease-in-out;
+}
+.button:hover {
+  transform: scale(110%);
+  
+}
