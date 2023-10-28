@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
 }
-
 .element {
   background-color: #ddd;
   color: #333;
