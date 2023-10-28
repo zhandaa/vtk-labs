@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .breadcrumbs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .breadcrumbs-item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+  }
+  
+  .breadcrumbs-item:not(:last-child):after {
+    content: ">";
+    margin-left: 5px;
+  }
+  
+  .breadcrumbs-link {
+    color: #0b56ea;
+    text-decoration: none;
+  }
+  
+  .breadcrumbs-link:not(span):hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumbs-link.current {
+    color: #333;
+  }
