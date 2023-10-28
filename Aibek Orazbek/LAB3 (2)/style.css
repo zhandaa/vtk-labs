@@ -10,6 +10,7 @@ body {
   background: #EEEFF1;
   padding-bottom: 100px;
 }
+
 .header {
   width: 100%;
   min-height: 80px;
@@ -27,8 +28,9 @@ body {
   text-decoration: none;
   color: #000;
 }
-.header__menu a:hover {
+.header__menu a:hover {`
   color: #34547A;
+  text-decoration: underline;
 }
 .logo {
   width:96px;
@@ -39,13 +41,16 @@ body {
 }
 .section-info__wrapper {
   background: #EEEFF1;
-
 }
 .section-info {
-  display: flex;
-  justify-content: center;
-  gap: 130px;
+  width: 500px;
+  margin: auto;
   padding-bottom: 70px;
+}
+.embl{
+  font-family: 'Revalia', sans-serif;
+  font-size: 48px;
+  color: red;
 }
 .section-info h1{
   font-size: 48px;
