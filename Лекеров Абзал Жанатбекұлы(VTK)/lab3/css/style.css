@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Revalia', sans-serif;
+    font-family: 'Roboto', sans-serif; */ 
+    font-family: 'Roboto', sans-serif;  
+}
+.container{
+    max-width: 1010px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #EEEFF1;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-family: 'Revalia', sans-serif;
+    font-size: 48px;
+    margin-top: 57px 
+}
+.logo-text{
+    text-decoration: none;
+    color: #34547A;
+}
+
+.nav{
+    margin-top: 79px;
+    max-height: 88px;
+}
+
+
+.nav-items{
+    display: flex;
+}
+
+.nav-item{
+    margin-left: 42px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: inherit;
+    transition: .5s all;
+}
+.nav-item a:hover{
+    font-size: 20px;
+}
+
+.header-content{
+    margin-top: 90px;
+    display: flex;
+}
+.header-img{
+    margin-left:85px;                                     
+}
+
+.header-info{
+    margin-left:120px;
+}
+
+.header-info__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.header-info__text{
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header-info__btn{
+    margin-top: 60px;
+    margin-bottom: 146px;
+}
+.header-btn{
+    width: 225px;
+    height: 65px;
+    padding: 25px 41px;
+    background-color: #34547A;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;    
+    font-size: 16px;
+    transition: .5s all;
+}
+
+.header-btn:hover{
+    transform: scale(1.2);
+}
+.header-btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.about-me{
+    background-color: #f9f9f9;
+}
+
+.about-me__content{
+    padding-top:78px;
+    padding-bottom: 78px;
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-me__title{
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.about-me__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.numbers{
+    background-color: #34547A;
+    height: 250px;
+}
+
+.numbers-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0 100px 0;
+}
+
+.numbers-item{
+    width: 141px;
+    display: flex;
+}
+.numbers-item__img{
+    padding-right: 20px;
+}
+
+.numbers-item__text span{
+    font-weight: 500;
+    font-size:21px;
+    color: #fff;
+}
+
+.numbers-item__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    padding-top:78px;
+    align-items: center;
+    padding-bottom: 78px;
+}
+
+.skills-info{
+
+}
+.skills-items{
+    width: 445px;
+    top: 50px;
+}
+.skills-item{
+    list-style: none;
+}
+
+.skills-item__text{
+    margin-bottom: 20px;
+}
+
+.background-line{
+    background-color: #C4C4C4;
+    width: 445px;
+    height: 4px;
+    margin-bottom:20px
+}
+.skills-info__title h2{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+
+.inner-line{
+    width: 349.36px;
+    height: 4px;
+    background-color: #34547A;
+
+}
+
+.skills-img__image{
+    width: 450px;
+}
+
+.work-wrapper{
+    background-color: #EEEFF1;
+    
+}
+.work{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.work-title h2{
+    font-weight:500;
+    margin-bottom: 50px;
+}
+
+.work-description{
+    width: 540px;
+    margin: 0 auto;
+    margin-bottom: 57px;
+}
+.gallery-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-item{
+    list-style: none;
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-img{
+    width: 380px;
+    height: 380px;
+    margin: 0;
+    padding: 0;
+    flex-basis: 25%;
+}
