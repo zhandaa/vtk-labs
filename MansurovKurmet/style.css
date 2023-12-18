@@ -1,0 +1,8 @@
+tbody tr:last-child { text-align:right;
+    background-color:black;
+    color: #ffffff;
+ }
+  td,th{
+   border: 1px solid #b4b4b4;
+   border-style: solid;  
+ }
