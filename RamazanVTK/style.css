@@ -1,0 +1,16 @@
+.products {
+    list-style: none; 
+  }
+  .products li {
+    display: inline; 
+    margin-right: 1px; 
+  }
+  .products li:not(:last-child)::after {
+    content: " > "; 
+  }
+  .products a {
+    color: #0b56ea;
+  }
+  .products span {
+    color: #333;
+  }

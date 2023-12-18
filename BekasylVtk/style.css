@@ -1,0 +1,22 @@
+
+.cars {
+    list-style: none; 
+    padding: 0;
+  }
+  .cars li {
+    display: inline; 
+    margin-right: 5px; 
+  }
+  .cars li:not(:last-child)::after {
+    content: " > "; 
+  }
+  .cars a {
+    color: #0b56ea;
+    text-decoration: none;
+  }
+  .cars a:hover {
+    text-decoration: underline;
+  }
+  .cars span {
+    color: #333;
+  }

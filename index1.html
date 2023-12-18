@@ -1,0 +1,69 @@
+<!--Наберите в редакторе код из примера ниже символ в символ и нажмите «Проверить». -->
+// @ts-check
+/* eslint-disable no-console */
+
+// BEGIN (write your solution here)
+console.log('Hello, World!');
+// END
+
+<!--Напишите программу, которая берет исходное количество евро, записанное в константу eurosCount, переводит евро в доллары и выводит на экран.
+Затем полученное значение переводит в рубли и выводит на новой строчке. -->
+// @ts-check
+/* eslint-disable no-console */
+
+const eurosCount = 100;
+
+const dollarsCount = eurosCount * 1.25;
+
+console.log(dollarsCount);
+
+const rublesCount = dollarsCount * 60;
+
+
+console.log(rublesCount);
+// BEGIN (write your solution here)
+
+// END
+
+<!--Выведите на экран абсолютное значение числа, находящегося в константе fruitsCount, используя функцию Math.abs(). 
+Эта функция возвращает абсолютное значение переданного числа. Абсолютное значения числа — это само это число без знака перед ним. -->
+// @ts-check
+/* eslint-disable no-console */
+
+const fruitsCount = -2309;
+
+const absoluteValue = Math.abs(fruitsCount);
+
+console.log(absoluteValue);
+// BEGIN (write your solution here)
+
+// END
+
+<!--Данные, вводимые пользователями, часто содержат лишние пробельные символы в конце или начале строки. 
+Обычно их вырезают с помощью метода .trim(), например, было: ' hello\n ', стало: 'hello'. -->
+// @ts-check
+/* eslint-disable no-console */
+
+let firstName = '  Grigor   \n';
+
+// BEGIN (write your solution here)
+
+
+firstName = firstName.trim();
+console.log(firstName);
+
+<!--Модифицируйте функцию printNumbers() так, чтобы она выводила числа в обратном порядке. Для этого нужно идти от верхней границы к нижней. 
+    То есть счётчик должен быть инициализирован максимальным значением, а в теле цикла его нужно уменьшать до нижней границы. -->
+    // @ts-check
+/* eslint-disable no-console */
+
+const printNumbers = (initialNumber) => {
+  // BEGIN (write your solution here)
+  for (let i = initialNumber; i > 0; i--) {
+    console.log(i);
+  }
+  console.log('finished!');
+  // END
+};
+
+export default printNumbers;

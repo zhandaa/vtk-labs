@@ -1,0 +1,44 @@
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #444;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    width: 100%;
+}
+
+nav ul li ul li a {
+    padding: 10px 20px;
+    color: #fff;
+}
+
+nav ul li ul li ul {
+    left: 100%;
+    top: 0;
+}
