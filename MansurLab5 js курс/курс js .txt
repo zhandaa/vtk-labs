@@ -1,0 +1,68 @@
+Напишите программу, которая считает и выводит на экран последовательно (по одному значению в каждой строке) значения следующих математических выражений:
+
+3 в степени 5
+-8 разделить на -4
+остаток от деления 100 на 3
+сумму трёх предыдущих выражений
+// Выражение: 3 в степени 5
+const expression1 = Math.pow(3, 5);
+console.log(expression1);
+
+const expression2 = -8 / -4;
+console.log(expression2);
+
+const expression3 = 100 % 3;
+console.log(expression3);
+
+const expression4 = expression1 + expression2 + expression3;
+console.log(expression4);
+
+Оператор typeof позволяет определить тип передаваемого операнда. Название типа возвращается в виде строки. Например, вызов typeof 'go go go' вернёт строку 'string' (number — число).
+
+console.log(typeof 3); // => 'number'
+Выведите на экран тип значения константы motto.
+// @ts-check
+/* eslint-disable no-console */
+
+const motto = 'Family, Duty, Honor';
+console.log( typeof motto);
+
+
+// BEGIN (write your solution here)
+
+// END
+
+
+Реализуйте функцию isInternationalPhone(), которая проверяет формат указанного телефона. Если телефон начинается с +, значит это международный формат.
+
+isInternationalPhone('89602223423'); // false
+isInternationalPhone('+79602223423'); // true
+// BEGIN (write your solution here)
+const isInternationalPhone = (phoneNumber) => {
+  return phoneNumber.startsWith('+');
+};
+// END
+
+export default isInternationalPhone;
+
+Модифицируйте функцию printNumbers() так, чтобы она выводила числа в обратном порядке. Для этого нужно идти от верхней границы к нижней. То есть счётчик должен быть инициализирован максимальным значением, а в теле цикла его нужно уменьшать до нижней границы.
+
+printNumbers(4);
+4
+3
+2
+1
+finished!
+// @ts-check
+/* eslint-disable no-console */
+
+const printNumbers = (initialNumber) => {
+  // BEGIN (write your solution here)
+  for (let i = initialNumber; i > 0; i--) {
+    console.log(i);
+  }
+  console.log('finished!');
+  // END
+};
+
+export default printNumbers;
